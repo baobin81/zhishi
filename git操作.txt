@@ -1,0 +1,5 @@
+﻿第1步：创建SSH Key。在windows下查看[c盘->用户->自己的用户名->.ssh]下是否有id_rsa、id_rsa.pub文件，如果没有需要手动生成。
+
+ ssh-keygen -t rsa -C "baobin81@qq.com"
+
+第2步：登录github。打开setting->SSH keys，点击右上角 New SSH key，把生成好的公钥id_rsa.pub放进 key输入框中，再为当前的key起一个title来区分每个key。

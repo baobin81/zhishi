@@ -1,4 +1,5 @@
-#生成ssh key
+
+# 生成ssh key
 ##第1步：
 创建SSH Key。在windows下查看[c盘->用户->自己的用户名->.ssh]下是否有id_rsa、id_rsa.pub文件，如果没有需要手动生成。
 

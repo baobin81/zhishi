@@ -3,5 +3,3 @@
  ssh-keygen -t rsa -C "baobin81@qq.com"
 
 第2步：登录github。打开setting->SSH keys，点击右上角 New SSH key，把生成好的公钥id_rsa.pub放进 key输入框中，再为当前的key起一个title来区分每个key。
-
-这个命令一定得记住

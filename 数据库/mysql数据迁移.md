@@ -13,6 +13,8 @@
 4. 解决过程：phpmyadmin进入以后，变量里面能看到binlog format，可以查看binlog格式
 4. 失败原因：源实例innodb_stats_on_metadata值为on
 5. 解决方案：设置源实例innodb_stats_on_metadata为off
+### 腾讯云参考文档
+[https://cloud.tencent.com/document/product/571/13729](https://cloud.tencent.com/document/product/571/13729 "腾讯云参考文档")
 
 ## phpmyadmin 同步数据
 ### 远程服务器参数说明：

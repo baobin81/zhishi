@@ -1,0 +1,5 @@
+说要删除npmrc文件
+
+强调：不是nodejs安装目录npm模块下的那个npmrc文件
+
+而是在C:\Users\{账户}\下的.npmrc文件....

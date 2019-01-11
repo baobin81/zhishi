@@ -1,0 +1,20 @@
+查看全局包位置： 
+npm root -g 
+可以看到实际的位置 
+
+第一种方法：
+修改全局包位置 
+npm config set cache "D:\softeadddata\npm\node_cache"
+npm config set prefix "D:\softeadddata\npm\node_global"
+
+查看修改结果 
+npm config get prefix 
+或者用npm root -g命令也可 
+
+第二种方法：
+最后在nodejs的安装目录中找到node_modules\npm\.npmrc文件
+
+修改如下即可：
+
+prefix = D:\softeadddata\npm\node_global
+cache =  D:\softeadddata\npm\node_global

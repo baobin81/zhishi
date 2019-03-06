@@ -1,0 +1,6 @@
+查看有哪些tag
+git tag
+tag操作详细见
+https://gitee.com/all-about-git
+
+git archive -v --format=zip v0.1 > v0.1.zip

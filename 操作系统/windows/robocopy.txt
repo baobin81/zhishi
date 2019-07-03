@@ -1,0 +1,6 @@
+robocopy E:\test  D:\test /E
+
+robocopy "G:\maanshan\tools\app\jingqu" "E:\xampp7\htdocs\project\maanshan\tools\app\jingqu" /e /mir /mt:120 /R:3 /W:10  /LOG+:"D:\chrome_backup.txt"
+
+
+robocopy "E:\xampp7\htdocs\project\maanshan\tools" "I:\maanshan"  /e /mt:120 /R:3 /W:10 /xf *.tmp

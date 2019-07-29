@@ -1,0 +1,33 @@
+硬件部份：
+硬盘：df -h
+
+内存：内存大小
+grep MemTotal /proc/meminfo
+
+CPU：
+Centos 查看 CPU 核数 和 型号 和 主频
+cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c
+结果实例： 10  Intel(R) Xeon(R) CPU E5-2430 v4 @ 2.10GHz
+
+centos下如何查看cpu是多少核，及每核的线程
+
+more /proc/cpuinfo | grep "model name"
+
+# 查看物理CPU个数
+cat /proc/cpuinfo| grep "physical id"| sort| uniq| wc -l
+
+系统部份：
+查看内核版本：
+uname -a
+查看系统版本：
+lsb_release -a
+
+cat /etc/redhat-release
+
+
+网络部份：
+
+
+进程部份：
+
+服务部份:

@@ -1,0 +1,6 @@
+服务器目录 /tmp 要有777权限
+
+注意下面两个配置
+open_basedir
+
+upload_tmp_dir

@@ -1,0 +1,5 @@
+ curl -vO http://ziyuanbao.quanjingke.com/v2/a10.zip
+
+说明：
+-v 打印详细说明
+O 大写的o。下载到当前目录

@@ -1,0 +1,8 @@
+disable_functions = pcntl_exec,putenv,passthru,exec,system,chroot,scandir,chgrp,chown,shell_exec,proc_open,proc_get_status,ini_alter,ini_alter,ini_restore,dl,openlog,syslog,readlink,symlink,popepassthru,stream_socket_server,escapeshellcmd,popen,dl,syslog,show_source,socket_create,ssh2_exec,cntl_exec,php_uname,phpinfo,mail
+
+web¹¥»÷¹¤¾ß
+burpsuit
+nmap
+nc
+Apache Logs Viewer
+https://aspirepig.cn/linux/400.html

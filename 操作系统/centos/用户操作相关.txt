@@ -1,0 +1,9 @@
+添加用户：
+adduser tommy
+修改密码：
+passwd tommy
+赋予root权限
+4、删除用户
+userdel test
+5、删除用户及用户组
+userdel -f test

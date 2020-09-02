@@ -1,6 +1,6 @@
-²é¿´ÓĞÄÄĞ©tag
+æŸ¥çœ‹æœ‰å“ªäº›tag
 git tag
-tag²Ù×÷ÏêÏ¸¼û
+tagæ“ä½œè¯¦ç»†è§
 https://gitee.com/all-about-git
 
 git archive -v --format=zip v0.1 > v0.1.zip
